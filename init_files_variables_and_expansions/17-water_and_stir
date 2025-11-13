@@ -1,0 +1,7 @@
+#!/bin/bash
+wbase=${#WATER}
+sbase=${#STIR}
+rbase=${#bestchol}
+sum=$(echo "ibase=$wbase; $WATER" | bc)
+sum2=$(echo "ibase=$sbase; $STIR" | bc)
+echo "obase=$rbase; $sum + $sum2" | bc
