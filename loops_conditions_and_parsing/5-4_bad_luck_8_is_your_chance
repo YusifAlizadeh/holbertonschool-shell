@@ -4,7 +4,7 @@ count = 1
 while [ $coung -le 10 ]; do 
     if [ $count -eq 4 ]; then
         echo "bad luck"
-    else if [ $count -eq 8 ]; do
+    elif [ $count -eq 8 ]; do
         echo "good luck"
     else 
         echo "Best School"
