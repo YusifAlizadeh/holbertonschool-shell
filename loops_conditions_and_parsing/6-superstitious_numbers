@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Display Best School 10 times using while loop
+# Display numbers from 1 to 20 with some conditions 
 count=1
 while [ $count -le 20 ]; do
   case $count in
